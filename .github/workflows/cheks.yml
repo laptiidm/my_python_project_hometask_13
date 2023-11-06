@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-python@v2    
-secret:
-  runs-on: ubuntu-latest
-  steps:
-    - name: print_secret
-      run: ${{ secrets.TEST_SECRET_API_TOKEN }}     
+  secret:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print_secret
+        run: ${{ secrets.TEST_SECRET_API_TOKEN }}     
   
